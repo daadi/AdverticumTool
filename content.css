@@ -1,0 +1,35 @@
+.___goaExtZone
+{
+	display: block;
+}
+
+.___goaExtLabel
+{
+	display: block;
+	color: black !important;
+	font-family: Helvetica, Arial !important;
+	font-size: 12px !important;
+	text-align: left !important;
+	background-color: yellow;
+	padding: 0.5em 0 0.5em 0.5em;
+}
+
+.___goaExtHighlighted {
+	outline: 2px dotted orangered;
+}
+
+.___goaExtHighlighted .___goaExtLabel {
+	background: orangered;
+	color: white !important;
+}
+
+.___goaExtGoa3Script {
+	display: block;
+	color: black !important;
+	font-family: Helvetica, Arial !important;
+	font-size: 12px !important;
+	text-align: left !important;
+	background-color: green;
+	padding: 0.5em 0 0.5em 0.5em;
+}
+

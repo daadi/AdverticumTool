@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "Adverticum Zones",
+	"version": "0.1",
+	"description": "Helps debugging Adverticum AdServer issues on the page",
+	"permissions": [
+		"http://*/*",
+		"https://*/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["http://*/*","https://*/*"],
+			"css": ["content.css"],
+			"js": ["jquery.js", "format.20110630-1100.min.js", "content.js"],
+			"run_at": "document_end"
+		}
+	],
+	"browser_action": 
+		{
+			"default_icon": {
+				"19": "adverticum.ico"
+			},
+			"default_title": "Adverticum Zones",
+			"default_popup": "popup.html"
+		}
+}
+
